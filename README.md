@@ -40,11 +40,11 @@ De nieuwssite [The Verge](https://theverge.com)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="images/verge1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/verge1.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Een nieuwsartikel  
-<img src="images/verge2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/verge2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
