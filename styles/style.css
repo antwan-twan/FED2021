@@ -3,3 +3,15 @@
   box-sizing:border-box;  
 }
 
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+:root {
+--color-main-background: #000000;
+
+}
+
+
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
