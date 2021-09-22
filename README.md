@@ -75,8 +75,10 @@ Een nieuwsartikel
 ## Voortgang 1 (week 2)
 
 <details>
+ 
 ### Verslag van meeting
-Helaas kon ik bij deze meeting niet aanwezig zijn. Dit kwam doordat ik op dat moment aan het verhuizen was. 
+
+ Helaas kon ik bij deze meeting niet aanwezig zijn. Dit kwam doordat ik op dat moment aan het verhuizen was. 
 </details>
 
 
@@ -86,7 +88,6 @@ Helaas kon ik bij deze meeting niet aanwezig zijn. Dit kwam doordat ik op dat mo
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
