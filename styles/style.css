@@ -15,3 +15,15 @@
 /********************/
 /* ALGEMENE STIJLEN */
 /********************/
+body{
+  background-color: var(--color-main-background);
+  color: white;
+}
+
+main ul {
+  list-style-type: none;
+}
+main ul li{
+  border:2px solid;
+  border-image:linear-gradient(45deg,yellow,coral) 10;
+}
