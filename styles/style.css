@@ -24,6 +24,6 @@ main ul {
   list-style-type: none;
 }
 main ul li{
-  border:2px solid;
+  border:1px solid;
   border-image:linear-gradient(45deg,yellow,coral) 10;
 }
