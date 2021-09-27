@@ -22,7 +22,7 @@ Anthonie Meijers
 Blauw/Rood
 
 #### Je focus:
-Surface Plane
+Responsive Website
  
 </details>
 
