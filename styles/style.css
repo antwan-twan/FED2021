@@ -8,22 +8,96 @@
 /******************************/
 :root {
 --color-main-background: #000000;
-
+--color-menu-grey: #1A1A1A;
+--color-menu-grey-light: #494949;
+--border-gradient: linear-gradient(to right, rgba(255,218,0,1) 0%, rgba(255,162,0,1) 28%, rgba(255,0,121,1) 100%)
 }
 
 
 /********************/
 /* ALGEMENE STIJLEN */
 /********************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
   background-color: var(--color-main-background);
   color: white;
 }
 
-main ul {
+
+/********************/
+/*      FONTS       */
+/********************/
+
+h1, h2, h3{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  font-size: 19.2px;
+}
+
+h3{
+  font-size: 14.4px;
+}
+
+ul{
   list-style-type: none;
 }
+main ul {
+  padding-left: 0;
+}
+
 main ul li{
   border:1px solid;
-  border-image:linear-gradient(45deg,yellow,coral) 10;
+  border-image:var(--border-gradient) 10;
+
+  padding-left: 1em;
+}
+
+/********************/
+/*     NAVIGATIE    */
+/********************/
+button {
+  background-color:var(--color-main-background) ;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+
+  border-top: 2px var(--color-menu-grey-light);
+  border-bottom: 2px var(--color-menu-grey-light);
+  border-left: none;
+  /* border-right: none; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-menu-grey);
+  color: white;
+  min-width: 160px;
+  
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: var(--color-menu-grey-light)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--color-menu-grey);
 }
