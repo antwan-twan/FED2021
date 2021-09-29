@@ -22,6 +22,7 @@
 body{
   background-color: var(--color-main-background);
   color: white;
+  margin: 0;
 }
 
 
@@ -45,7 +46,7 @@ ul{
   list-style-type: none;
 }
 main ul {
-  padding-left: 0;
+  padding: 16px;
 }
 
 main ul li{
@@ -60,11 +61,14 @@ main ul li{
 /********************/
 nav{
   display:flex;
+  
 }
+
 button {
   background-color:var(--color-main-background) ;
   color: white;
   padding: 16px;
+  width: 100%;
   font-size: 16px;
   cursor: pointer;
 
@@ -84,7 +88,7 @@ button:focus{
 
 nav>div {
   position: relative;
-  display: inline-block;  
+  flex-grow: 1; 
 }
 
 nav>div>ul {
