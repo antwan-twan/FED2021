@@ -10,7 +10,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+
 
 ### Auteur
 
@@ -18,7 +18,7 @@ Anthonie Meijers
 
 #### Je startniveau
 
-Blauw/Rood
+Blauw
 
 #### Je focus
 
@@ -29,7 +29,6 @@ Surface Plane
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht
 
@@ -54,15 +53,11 @@ Een nieuwsartikel
 
 ### de hele pagina
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images\FED 2021 - Frame 1.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu)
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter)
-
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images\menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -81,61 +76,38 @@ Een nieuwsartikel
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het responsive maken van de website vind ik nog erg lastig. 
 
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Flexbox is over het algemeen handiger.
+- Gebruik nth-of-type
+- Gebruik display:none om menu's verborgen te houden
 
 </details>
 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen:
+Lijst met  bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+#### Dropdown
 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Het Dropdown menu wordt niet voorgelezen door de screenreader.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Het kan worden opgelost met behulp van het ARIA-label
 
-#### Titel tweede bevinding
+#### Links
 
-Hier korte omschrijving (met indien nodig een afbeelding)
+De links worden door de screenreader voorgelezen als "link". 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel volgende bevinding
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel nog een bevinding
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Gebruik een ARIA-label om de links te laten "verdwijnen" voor de screenreader.
 
 </details>
 
@@ -146,50 +118,33 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Ik merk dat ik over het algemeen de motivatie verlies. Ik merk ook dat ik erg achterloop, zowel met de stof als met het bouwen van mijn website. 
 
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Door dat ik zo erg achterloop, heb ik geen vorderingen gemaakt in mijn website. Het had geen nut om bij de meeting aanwezig te zijn. 
 
 </details>
 
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik vond eigenlijk alles lastiger dan gedacht. Het werk had ik onderschat. Het is daarom ook niet af.
+Kleine micro interacties heb ik daarom ook niet geïmplementeerd gekregen. Een tweede pagina is er ook niet van gekomen. 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images\endresult1.png">
+<img src="images\endresult2.png">
 
 </details>
 
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. W3schools; <https://www.w3schools.com/css/css_dropdowns.asp>
 2. <https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom>
