@@ -22,7 +22,7 @@ Blauw/Rood
 
 #### Je focus
 
-Responsive Website
+Surface Plane
 
 </details>
 
@@ -196,5 +196,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. <https://seekvectorlogo.com/the-verge-vector-logo-svg/>
 4. <https://www.freecodecamp.org/news/use-svg-images-in-css-html/>
 5. <https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css>
+6. <https://www.pngkit.com/bigpic/u2q8t4t4i1y3u2e6/>
 
 </details>

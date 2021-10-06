@@ -13,57 +13,15 @@
 --border-gradient: linear-gradient(to right, rgba(255,218,0,1) 0%, rgba(255,162,0,1) 28%, rgba(255,0,121,1) 100%);
 --color-background-white: #ffffff;
 --color-a:rgba(255,0,121,1);
+--color-a-dark:rgb(139, 0, 65);
+--color-light-grey: #cccccc;
 }
 
+/*************************/
+/*  FONTS & FONT COLORS  */
+/*************************/
 
-/********************/
-/* ALGEMENE STIJLEN */
-/********************/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-body{
-  background-color: var(--color-main-background);
-  color: white;
-  margin: 0;
-}
-
-ul{
-  list-style-type: none;
-}
-main ul {
-  padding: 16px;
-}
-
-main ul li{
-  border:1px solid;
-  border-image:var(--border-gradient) 10;
-
-  /* padding-left: 1em; */
-
-  display: flex;
-}
-
-
-
-.mainarticle{
-  max-width: 50%;
-
-  padding: 1em;
-}
-
-.subarticle{
-  max-width: 40%;
-
-  padding: 1em;
-
-
-}
-
-/********************/
-/*      FONTS       */
-/********************/
-
-h1, h2, h3{
+h1, h2, h3, aside{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -85,11 +43,112 @@ nav div ul li{
 }
 
 /********************/
+/* ALGEMENE STIJLEN */
+/********************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+  background-color: var(--color-main-background);
+  color: white;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/****** HEADER ******/
+header img:first-of-type{
+  width: 200px;
+  padding: 1em;
+}
+
+header img:last-of-type{
+  height: 60px;
+  padding: 1em;
+  
+}
+
+header>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/****** MAIN ARTICLES DARK ******/
+main ul {
+  padding: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+main ul li{
+  border:1px solid;
+  border-image:var(--border-gradient) 10;
+
+  /* padding-left: 1em; */
+
+  display: flex;
+}
+
+.mainarticle{
+  max-width: 50%;
+
+  padding: 1em;
+}
+
+.subarticle{
+  max-width: 40%;
+
+  padding: 1em;
+
+
+}
+
+/****** MAIN ARTICLES WHITE ******/
+main>div>div{
+  background-color: white;
+  color: var(--color-main-background);
+
+  display: flex;
+  
+  border-bottom: 1px solid var(--color-light-grey);
+  
+  /* padding: 1em; */
+}
+
+.subarticle2{
+  max-width: 25%;
+  margin-right: 1em;
+
+}
+
+/****** MAIN ARTICLES ASIDE ******/
+main>div>div{
+  padding-top:1em;
+  padding-bottom: 1em;
+}
+main>div>div>div{
+  padding-right: 1em;
+  
+}
+aside{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--color-a)
+}
+
+.asideText{
+  text-align: right;
+}
+
+
+/********************/
 /*     NAVIGATIE    */
 /********************/
 nav{
   display:flex;
-  
+
 }
 
 button {
@@ -153,6 +212,27 @@ nav>div:hover  ul:first-of-type {
 
 .hidden{
   display: none;
+}
+
+main>button{
+  background-color: var(--color-a);
+  margin: 0;
+}
+
+main>button:hover, main>button:focus{
+  background-color: var(--color-a-dark);
+}
+
+/****************/
+/*    FOOTER    */
+/****************/
+footer>ul{
+  display:block
+}
+
+footer img{
+  width: 70%;
+  transform: center;
 }
 
 
