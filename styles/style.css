@@ -38,16 +38,25 @@ main ul li{
   border:1px solid;
   border-image:var(--border-gradient) 10;
 
-  padding-left: 1em;
+  /* padding-left: 1em; */
+
+  display: flex;
 }
+
+
+
 .mainarticle{
-  min-width: 50%;
-  max-width: 70%;
-  text-align: left;
+  max-width: 50%;
+
+  padding: 1em;
 }
 
 .subarticle{
-  max-width: 60%;
+  max-width: 40%;
+
+  padding: 1em;
+
+
 }
 
 /********************/
@@ -102,7 +111,7 @@ button:hover{
 }
 
 button:focus{
-  box-shadow: 0 0 1em red;
+  box-shadow:  0 6px var(--color-a);
 }
 
 nav>div {
@@ -142,3 +151,17 @@ nav>div:hover  ul:first-of-type {
   display: block;
 }
 
+.hidden{
+  display: none;
+}
+
+
+/****************/
+/*  RESPONSIVE  */
+/****************/
+@media (min-width:37.5em){
+
+  .hidden{
+    display: block;
+  }
+}
