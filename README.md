@@ -152,5 +152,8 @@ Kleine micro interacties heb ik daarom ook niet geïmplementeerd gekregen. Een t
 4. <https://www.freecodecamp.org/news/use-svg-images-in-css-html/>
 5. <https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css>
 6. <https://www.pngkit.com/bigpic/u2q8t4t4i1y3u2e6/>
+7. <https://www.youtube.com/watch?v=lpf-5mG9CGg&ab_channel=AdamKhoury>
+8. <https://www.geeksforgeeks.org/how-to-create-toggle-switch-by-using-html-and-css/>
+
 
 </details>

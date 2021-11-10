@@ -15,8 +15,19 @@
 --color-a:rgba(255,0,121,1);
 --color-a-dark:rgb(139, 0, 65);
 --color-light-grey: #cccccc;
+--color-text-white-article: #000000;
+--toggle-background:red;
 }
 
+
+@media (prefers-color-scheme:dark) {
+  :root:not(.darkMode) {
+    /* dark theme */
+    --color-background-white:#1A1A1A;
+    --color-text-white-article: #ffffff;
+  }
+
+}
 /*************************/
 /*  FONTS & FONT COLORS  */
 /*************************/
@@ -75,6 +86,45 @@ header>div{
   align-items: center;
 }
 
+
+.toggle{
+  position: relative;
+  display: inline-block;
+  width:80px;
+  height: 46px;
+  background-color: var(--toggle-background);
+  border-radius: 30px;
+  border: 2px solid var(--color-light-grey); 
+}
+
+/* After slide changes */
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-light-grey);
+  top: 1px; 
+  left: 1px;
+  transition:  all 0.3s;
+}
+      
+/* Checkbox checked effect // knop staat aan */
+.checkbox:checked + .toggle::after {
+  left : 34px; 
+}
+      
+/* Checkbox staat aan // light mode ingeschakeld*/
+.checkbox:checked + .toggle {
+  background-color: green;
+}
+      
+/* Checkbox vanished */
+.checkbox { 
+  display : none;
+}
+
 /****** MAIN ARTICLES DARK ******/
 main ul {
   padding: 16px;
@@ -84,7 +134,7 @@ main ul {
 
 main ul li{
   border:1px solid;
-  border-image:var(--border-gradient) 88;
+  border-image:var(--border-gradient) 1;
 
   /* padding-left: 1em; */
 
@@ -93,22 +143,22 @@ main ul li{
 
 .mainarticle{
   max-width: 50%;
+  height: auto;
 
   padding: 1em;
 }
 
 .subarticle{
   max-width: 40%;
+  height: auto;
 
   padding: 1em;
-
-
 }
 
 /****** MAIN ARTICLES WHITE ******/
 main>div>div{
-  background-color: white;
-  color: var(--color-main-background);
+  background-color: var(--color-background-white);
+  color: var(--color-text-white-article);
 
   display: flex;
   
@@ -267,3 +317,4 @@ footer img{
     display: block;
   }
 }
+
