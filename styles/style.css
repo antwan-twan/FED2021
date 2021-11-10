@@ -84,7 +84,7 @@ main ul {
 
 main ul li{
   border:1px solid;
-  border-image:var(--border-gradient) 10;
+  border-image:var(--border-gradient) 88;
 
   /* padding-left: 1em; */
 
@@ -174,7 +174,6 @@ button:focus{
 }
 
 nav>div {
-  position: relative;
   flex-grow: 1; 
 }
 
@@ -185,6 +184,8 @@ nav>div>ul {
   color: rgb(189, 184, 184);
   min-width: 160px;
 
+  left: 0;
+  right: 0;
   margin:0;
   padding-left: 0;
   
@@ -226,13 +227,34 @@ main>button:hover, main>button:focus{
 /****************/
 /*    FOOTER    */
 /****************/
+footer{
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 footer>ul{
-  display:block
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+  padding: 0;
+  padding-top:.5em;
+  margin: 0;
+}
+
+footer li{
+  flex-shrink: 0;
+}
+
+footer li:not(:last-of-type)::after{
+  content:" •";
 }
 
 footer img{
   width: 70%;
-  transform: center;
+  display: block;
+  margin: 0 auto;
 }
 
 
