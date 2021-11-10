@@ -1,14 +1,16 @@
 // JavaScript Document
 
-var colorModeInput = document.querySelector("input");
+var toggle = document.querySelector("input");
 
-colorModeInput.addEventListener('change', erisopmijgeklikt);
+toggle.addEventListener('change', switchMode);
 
-function erisopmijgeklikt() {
-    console.log("darkmode checked");
-  if( colorModeInput.checked ) {
+function switchMode() {
+    
+  if( toggle.checked ) {
+      console.log("lightmode checked")
     document.documentElement.classList.add("darkMode");
   } else {
+      console.log("darkmode checked");
     document.documentElement.classList.remove("darkMode");
   }
 };
