@@ -89,6 +89,10 @@ iframe{
 padding-left: 1em;
 }
 
+#related p a{
+  cursor: pointer;
+}
+
 
 /****** HEADER ******/
 /* header img:first-of-type{
