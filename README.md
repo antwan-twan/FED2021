@@ -154,6 +154,7 @@ Kleine micro interacties heb ik daarom ook niet geïmplementeerd gekregen. Een t
 6. <https://www.pngkit.com/bigpic/u2q8t4t4i1y3u2e6/>
 7. <https://www.youtube.com/watch?v=lpf-5mG9CGg&ab_channel=AdamKhoury>
 8. <https://www.geeksforgeeks.org/how-to-create-toggle-switch-by-using-html-and-css/>
+9. <https://www.youtube.com/watch?v=U2k4DWKt_FE&ab_channel=OnlineTutorials>
 
 
 </details>

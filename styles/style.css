@@ -26,8 +26,8 @@
     --color-background-white:#1A1A1A;
     --color-text-white-article: #ffffff;
   }
-
 }
+
 /*************************/
 /*  FONTS & FONT COLORS  */
 /*************************/
@@ -97,7 +97,7 @@ header>div{
   border: 2px solid var(--color-light-grey); 
 }
 
-/* After slide changes */
+
 .toggle:after {
   content: '';
   position: absolute;
@@ -110,88 +110,20 @@ header>div{
   transition:  all 0.3s;
 }
       
-/* Checkbox checked effect // knop staat aan */
+/* knop staat aan */
 .checkbox:checked + .toggle::after {
   left : 34px; 
 }
       
-/* Checkbox staat aan // light mode ingeschakeld*/
+/* C light mode ingeschakeld*/
 .checkbox:checked + .toggle {
   background-color: green;
 }
       
-/* Checkbox vanished */
+/* Checkbox weghalen */
 .checkbox { 
   display : none;
 }
-
-/****** MAIN ARTICLES DARK ******/
-main ul {
-  padding: 16px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-main ul li{
-  border:1px solid;
-  border-image:var(--border-gradient) 1;
-
-  /* padding-left: 1em; */
-
-  display: flex;
-}
-
-.mainarticle{
-  max-width: 50%;
-  height: auto;
-
-  padding: 1em;
-}
-
-.subarticle{
-  max-width: 40%;
-  height: auto;
-
-  padding: 1em;
-}
-
-/****** MAIN ARTICLES WHITE ******/
-main>div>div{
-  background-color: var(--color-background-white);
-  color: var(--color-text-white-article);
-
-  display: flex;
-  
-  border-bottom: 1px solid var(--color-light-grey);
-  
-  /* padding: 1em; */
-}
-
-.subarticle2{
-  max-width: 25%;
-  margin-right: 1em;
-
-}
-
-/****** MAIN ARTICLES ASIDE ******/
-main>div>div{
-  padding-top:1em;
-  padding-bottom: 1em;
-}
-main>div>div>div{
-  padding-right: 1em;
-  
-}
-aside{
-  font-size: 1.5em;
-  font-weight: 700;
-  color: var(--color-a)
-}
-
-.asideText{
-  text-align: right;
-}
-
 
 /********************/
 /*     NAVIGATIE    */
@@ -274,6 +206,96 @@ main>button:hover, main>button:focus{
   background-color: var(--color-a-dark);
 }
 
+/****** MAIN ARTICLES DARK ******/
+main ul {
+  padding: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+main ul li{
+  border:1px solid;
+  border-image:var(--border-gradient) 1;
+
+  /* padding-left: 1em; */
+
+  display: flex;
+}
+
+.mainarticle{
+  max-width: 50%;
+  height: auto;
+
+  padding: 1em;
+}
+
+.subarticle{
+  max-width: 40%;
+  height: auto;
+
+  padding: 1em;
+}
+
+/****** MAIN ARTICLES WHITE ******/
+main>div>div{
+  background-color: var(--color-background-white);
+  color: var(--color-text-white-article);
+
+  display: flex;
+  
+  border-bottom: 1px solid var(--color-light-grey);
+  
+  /* padding: 1em; */
+}
+
+.subarticle2{
+  max-width: 25%;
+  margin-right: 1em;
+
+}
+
+/****** MAIN ARTICLES ASIDE ******/
+main>div>div{
+  padding-top:1em;
+  padding-bottom: 1em;
+}
+main>div>div>div{
+  padding-right: 1em;
+  
+}
+aside{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--color-a)
+}
+
+.asideText{
+  text-align: right;
+}
+
+
+/****** ARTICLE BIG ******/
+.bigarticle div{
+display: block;
+
+padding: 0;
+padding-top: 16px;
+padding-left: 16px;
+}
+
+.bigarticle div h2{
+margin-top: 0;
+}
+
+.bigimage{
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+}
+
+
+
+
 /****************/
 /*    FOOTER    */
 /****************/
@@ -307,6 +329,25 @@ footer img{
   margin: 0 auto;
 }
 
+/****************/
+/*     POPUP    */
+/****************/
+.popup{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contentBox{
+  /* display: flex; */
+  
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background: var(--color-background-white);
+  border: 1px solid var(--color-a);
+}
 
 /****************/
 /*  RESPONSIVE  */
