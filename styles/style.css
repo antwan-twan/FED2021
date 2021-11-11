@@ -507,11 +507,11 @@ footer img{
   border-top: 3px solid var(--color-a);
   transform:
       /* translateY(-16px) */
-      translateX(60vw)
+      translateX(60vw);
       
   position: absolute;
   /* top: 20px; */
-  margin-left: 26px
+left: -290px;
 }
 
 /****************/
