@@ -142,6 +142,31 @@ Kleine micro interacties heb ik daarom ook niet geïmplementeerd gekregen. Een t
 
 </details>
 
+## Herkansing (week 9/10)
+
+<details>
+
+
+### Stand van zaken
+
+Ik vond eigenlijk alles lastiger dan gedacht. Het kostte mij best veel tijd. Het werk had ik opnieuw onderschat. Echter denk ik wel dat ik een goed resultaat heb afgeleverd.
+
+De volgende micro-interacties zitten er in:
+1. Video/geluid (met iFrame, omdat er op de video's copyright zit.)
+2. Dark/Light mode
+3. Animaties (in de knop voor dark/light-mode)
+4. Advanced positioning (popup op de artikel pagina)
+5. Formulieren (in popup)
+6. Popup interactie
+
+
+### Screenshot(s)
+
+<img src="images\endresult1.png">
+<img src="images\endresult2.png">
+
+</details>
+
 ## Bronnenlijst
 
 <details open>
