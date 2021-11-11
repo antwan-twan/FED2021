@@ -155,6 +155,7 @@ Kleine micro interacties heb ik daarom ook niet geïmplementeerd gekregen. Een t
 7. <https://www.youtube.com/watch?v=lpf-5mG9CGg&ab_channel=AdamKhoury>
 8. <https://www.geeksforgeeks.org/how-to-create-toggle-switch-by-using-html-and-css/>
 9. <https://www.youtube.com/watch?v=U2k4DWKt_FE&ab_channel=OnlineTutorials>
+10. <https://stackoverflow.com/questions/18012420/draw-diagonal-lines-in-div-background-with-css>
 
 
 </details>
