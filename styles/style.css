@@ -17,6 +17,7 @@
 --color-light-grey: #cccccc;
 --color-text-white-article: #000000;
 --toggle-background:red;
+--color-text-popup: black;
 }
 
 
@@ -25,6 +26,7 @@
     /* dark theme */
     --color-background-white:#1A1A1A;
     --color-text-white-article: #ffffff;
+    --color-text-popup: white;
   }
 }
 
@@ -339,15 +341,74 @@ footer img{
   transform: translate(-50%,-50%);
 }
 
+.popup h2{
+  color: var(--color-text-popup);
+}
+
+.popup form label{
+  color: var(--color-text-popup);
+}
 .contentBox{
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   
   position: relative;
-  width: 400px;
-  height: 300px;
+  max-width: 95vw;
+  height: 200px;
   background: var(--color-background-white);
   border: 1px solid var(--color-a);
 }
+
+.contentBox form{
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+
+  max-width: 90vw;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.contentBox form input:first-of-type{
+  width: 80vw;
+  height: 2.5em;
+  margin-bottom: 1em;
+  padding-right: 16px ;
+}
+
+.contentBox h2{
+  padding-left: 16px;
+}
+
+
+#buttonPopup{
+  background-color:var(--color-a) ;
+  width: 80vw;
+}
+
+
+#buttonPopup:hover{
+  background-color: var(--color-a-dark);
+}
+
+#buttonPopup:focus{
+  box-shadow:  0 6px var(--color-a-dark);
+}
+
+.close{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 40px;
+  height: 40px;
+
+  padding:1em;
+
+  color: var(--color-light-grey);
+}
+
+
 
 /****************/
 /*  RESPONSIVE  */
